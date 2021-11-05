@@ -1,0 +1,13 @@
+/* font face */
+@font-face {
+    font-family: "Samarkan" ;
+    src: url('http://fonts.cdnfonts.com/css/samarkan');
+}
+@font-face {
+    font-family: "Merriweather";
+    src: url(../fonts/merriweather/Merriweather-Regular.ttf);
+}
+@font-face {
+    font-family: "roboto";
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}

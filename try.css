@@ -1,0 +1,39 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .wrap {
+    max-width: 1040px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  figure {
+    margin: 0;
+  }
+  
+  .tint {
+    position: relative;
+    margin-bottom: 20px;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.2) 3px 5px 5px;
+  }
+  
+  .tint:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 255, 255, 0.5);
+    transition: all 0.3s linear;
+  }
+.t6:before {
+    background: rgba(255, 102, 0, 0.6);
+  }
