@@ -1,4 +1,4 @@
-/* import fonts from fonts.css file */
+/* icarport fonts from fonts.css file */
 @import url(./fonts.css);
 
 /* start navigation */
@@ -19,30 +19,30 @@
 /*banner area*/
 .site-main .site-banner{
     background: url(../img/m_w1\ blacklightside.jpg) ;
-    position:relative
+    position:relative;
 }
 .site-main .site-banner .site-title h6{
     padding-top: 12.5%;
-    margin-left: 25%;
+    /*margin-left: 25%;*/
     color: #cf873b;
     font-family: "Merriweather",cursive;
     
 }
 .site-main .site-banner .site-title h1{
     color: #cf873b;
-    margin-left: 25% ;
+    /*margin-left: 25% ;*/
     font-size: 100px;
     font-family: "Samarkan",cursive;
     position: relative;
 }   
 .site-main .site-banner .site-title h4{
     color: #cf873b;
-    margin-left: 25% ;
+    /*margin-left: 25% ;*/
     font-family: "Merriweather",cursive;
 }
 .site-main .site-banner .site-title p{
     color: #cf873b;
-    margin-left: 25% ;
+    /*margin-left: 25% ;*/
     font-family: "Merriweather",cursive;
     
 }
@@ -50,20 +50,20 @@
 
 .button{
     padding: 0.8 rem 2.2rem;
-    margin-left: 25% ;
+    /*margin-left: 25% ;*/
     font-family : "roboto";
-    font: normal 500 16px/20px ;
+    font: normal 500 1100px/20px ;
     position: relative;
     border: 3px solid transparent;
     border-radius: 4px;
     background:linear-gradient(45deg,#e65c00,#F9D423);
     background-clip:padding-box;
     color:black;
-    transition: background .6s ease;   
+    transition: box-shadow .6s ease;   
 }
 .button:hover{
     padding: 0.8 rem 2.2rem;
-    margin-left: 25% ;
+    /*margin-left: 25% ;*/
     font-family : "roboto";
     font: normal 500 16px/20px ;
     position: relative;
@@ -73,27 +73,29 @@
     background: transparent ;
     background-clip:padding-box;
     color:wheat;
-    transition: background .6s ease;
 }
 /* end button*/
 /*end banner area*/
 /*Start abobut us*/
  .about-us{
      background: linear-gradient(33deg, #603813 ,#cf873b);
+     padding: 20% 20% 0% 20%;
  }
 
  .about-us .abt-image{
      margin: 10% 10%;
  }
  .about-us .abt{
-     margin: 17% 40% 3% 40%;
-     padding: 0.8rem 2.2rem 0rem 2.2rem ;
+     margin-bottom: 5%;
+     padding: 0.8rem 2.2rem;
      background: #836539;
      font-family: "Samarkan";
      font-weight: 900;
      font-size:64px;
+     position: relative;
      border: 10px solid black;
-     box-shadow: 10px 10px 10px #cf873b;
+     box-shadow: 5px 5px 10px #cf873b;
+     background-clip:padding-box;
      transition: box-shadow ease 0.7s;
 
  }
@@ -103,11 +105,11 @@
  .about-us .para{
      font-family: "Merriweather";
      font-weight: 100;
-     word-spacing:1rem ;
+     word-spacing:0.5vw ;
      color: rgb(228, 133, 65);
-     letter-spacing:0.3rem ;
-     font-size: 30px;
-     margin-bottom: 1% ;
+     letter-spacing:0.1rem ;
+     font-size: 3vw;
+     margin-bottom: 0% ;
  }
 
  /*.about-us .nam-img{
@@ -117,23 +119,26 @@
 /* Language area */
 .lan-ar1 {
     background: linear-gradient(45deg , #cf873b ,wheat);
-    padding: 0rem 10rem 9rem 10rem;
+    padding: 0rem 0rem 9rem 0rem;
 }
 .first-row{
     margin-top: 9rem;
+    margin-left: 2.5rem;
+    
+    margin-right: 2.5rem;
 }
 .singlelang{
     display: flex;
     justify-content: center;
-    border:3px solid #e07e14;
+    border: 2px solid #e07e14;
     text-align: center;
-    padding: 1.8rem 0rem;
+    padding: 1.8rem 5rem;
     margin: 2rem 0rem;
     cursor: pointer;
     transition:transform .4s ease;
 }
-.singlelang img{
-    width: 70%;
+.singlelang {
+    width: 100%;
 }
 .singlelang:hover{
     box-shadow: 10px 5px 20px  black ;
@@ -142,17 +147,21 @@
 .singlelang:hover img{
     filter: brightness(0.01);
 }
-.experience-area{
-    padding-left: 1rem;
-    margin-top: 13rem;
+.experience{
+    margin-right: 2.5rem;
+
+    margin-left: 2.5rem;
+    
 }
-.experience-area .years-area span{
+/*
+.experience-area .year span{
     display: block;
     color: #925a5a;
     font-weight: bold;
     font-family: "Merriweather";
     letter-spacing: 0.5rem;
 }
+
 .experience-area .years-area{
     background:url(../img/border1.png) no-repeat 45px 20px ;
     padding: 11% 1.1%;
@@ -161,18 +170,16 @@
     padding-left: 8rem;
     position: relative;
 }
-/*.experience-area .bg-panel{
-    position: absolute;
-    left:-190px;top:0%;
-    background: black;
-    height: 400px;
-    width: 400px;
-    margin-left: 340px;
-    z-index:1;
-} */
+
 
 .call-area{
     padding-left: 8rem ;
+}
+.call-area a {
+    outline: none;
+    text-decoration: none;
+    color:rgb(78, 37, 8);
+    font-family: "roboto";
 }
 .call-area span{
     font-family: "roboto";
@@ -180,6 +187,32 @@
     color: chocolate;
     display: block;
     font-size: 24px;
+}*/
+.year{
+    display: flex;
+    justify-content: center;
+    color: #000;
+    /*margin-left:  33%;*/
+    margin-top: 33%;
+    margin-bottom: 22%;
+    font-family: "roboto";
+    letter-spacing: 0.3vw;
+}
+.call{
+    display: flex;
+    justify-content: center;
+    /*margin-left:33%;*/
+    letter-spacing: 0.3vw;
+    font-family: "roboto";
+}
+.call a{
+    outline: none;
+    text-decoration: none;
+    color:#ac4313
+}
+.call a:hover{
+    text-decoration: underline;
+    color: #603813;
 }
 
 /* End language area */ 
@@ -234,10 +267,10 @@
 /* End skills area*/
 /* Institution */
 .carousel-item{
-    width:1600px;
-    height: 700px;
-    min-height: 170px;
-    min-width : 400px;
+    max-width:1600px;
+    max-height: 700px;
+    min-height: 162px;
+    min-width : 360px;
     background: no-repeat scroll center scroll;
     -webkit-background-size: cover;
     background-size: cover;
@@ -254,9 +287,9 @@
     opacity: 0.8;
 }
 .carousel-caption{
-    bottom:260px;
-    padding-right: 100px;
-    padding-left: 100px;
+    bottom:37.14%;
+    padding-right: 6.25%;
+    padding-left: 6.25%;
 
 }
 .carousel-caption h1{
@@ -317,30 +350,42 @@
 }
 .chidam .content h3{
     margin-bottom:40px;
-    color: rgb(255, 102, 0);
+    color: rgb(102, 67, 1);
 }
-.chidam .form-control{
+.chidam .btn0{
     height: 50px;
-    border-color: rgb(104, 89, 3) ;
-    border: 3px solid darkgreen;
-    box-shadow: 10px 10px 10px black;
+    border-color: #68035b ;
+    border: 3px solid #0ca3c9;
+    font-family: "roboto" ;
+    color: rgb(170, 73, 170);
 }
-.chidam .form-control:focus{
-    box-shadow: 0px 10px 10px black;
+.chidam .btn1{
+    height: 50px;
+    border-color: #68035b ;
+    border: 3px solid #0ca3c9;
+    font-family: "roboto" ;
+    color: #0a7c99;
+}
+.chidam .btn0:focus{
+    border: 3px solid rgb(223, 103, 103);
+    color:black;
+}
+.chidam .btn1:focus{
+    border: 3px solid rgb(223, 103, 103);
+    color:black
 }
 .chidam .content .btn{
-    min-height:50px;
+    height: 50px;
     border-radius: 0;
-    background-color: darkgreen ;
+    background-color: rgb(0, 100, 75) ;
     padding-right: 40px;
     padding-left: 40px;
-    box-shadow: 10px 10px 10px black;
     font-family: "roboto";
     color: wheat;
 }
 .chidam .content .btn:focus{
-    box-shadow: 0px 10px 10px black;
-    background-color: rgb(255, 116, 2);
+
+    background-color: rgb(153, 106, 4);
     border: 3px solid black;
 }
 /* End Contact Area */

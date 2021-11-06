@@ -1,7 +1,8 @@
 /* font face */
 @font-face {
     font-family: "Samarkan" ;
-    src: url('http://fonts.cdnfonts.com/css/samarkan');
+    src: url('../fonts/samakaran/SAMAN___.TTF')
+    /*url('http://fonts.cdnfonts.com/css/samarkan');*/
 }
 @font-face {
     font-family: "Merriweather";
