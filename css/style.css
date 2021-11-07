@@ -49,37 +49,51 @@
 /* button */
 
 .button{
-    padding: 0.8 rem 2.2rem;
     /*margin-left: 25% ;*/
-    font-family : "roboto";
-    font: normal 500 1100px/20px ;
     position: relative;
-    border: 3px solid transparent;
+    border: 3px solid rgb(221, 99, 0);
     border-radius: 4px;
     background:linear-gradient(45deg,#e65c00,#F9D423);
     background-clip:padding-box;
-    color:black;
     transition: box-shadow .6s ease;   
 }
+.button a{
+    outline: none;
+    text-decoration: none;
+    color:#001d3f;
+    font-family: "Merriweather";
+    font-size:16px;
+    font-weight: bolder;
+    position: relative;
+    background-clip:padding-box;
+}
+.button a:hover{
+    outline: none;
+    text-decoration: underline;
+    position: relative;
+    background-clip:padding-box;
+    color:wheat
+    
+}    
 .button:hover{
-    padding: 0.8 rem 2.2rem;
     /*margin-left: 25% ;*/
     font-family : "roboto";
     font: normal 500 16px/20px ;
     position: relative;
+    color:wheat;
+    font-family: "roboto";
     border: 3px solid wheat;
     border-radius: 4px;
     box-shadow: 5px 5px 10px #cf873b;
     background: transparent ;
     background-clip:padding-box;
-    color:wheat;
 }
 /* end button*/
 /*end banner area*/
 /*Start abobut us*/
  .about-us{
      background: linear-gradient(33deg, #603813 ,#cf873b);
-     padding: 20% 20% 0% 20%;
+     padding: 10% 10% 0% 10%;
  }
 
  .about-us .abt-image{
@@ -100,7 +114,7 @@
 
  }
  .about-us .abt:hover{
-     box-shadow: 10px 10px 10px white;
+     box-shadow: 5px 5px 10px white;
  }
  .about-us .para{
      font-family: "Merriweather";
@@ -341,7 +355,10 @@
 /* Contact area */
 .chidam{
     background: rgb(247, 197, 59);
-    padding :20%
+    padding-left:5%;
+    padding-right: 5%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 .chidam .content{
     max-width: 650px;
@@ -357,14 +374,14 @@
     border-color: #68035b ;
     border: 3px solid #0ca3c9;
     font-family: "roboto" ;
-    color: rgb(170, 73, 170);
+    color: #67990a;
 }
 .chidam .btn1{
     height: 50px;
     border-color: #68035b ;
     border: 3px solid #0ca3c9;
     font-family: "roboto" ;
-    color: #0a7c99;
+    color: #67990a;
 }
 .chidam .btn0:focus{
     border: 3px solid rgb(223, 103, 103);
@@ -373,6 +390,17 @@
 .chidam .btn1:focus{
     border: 3px solid rgb(223, 103, 103);
     color:black
+}
+.chidam #btn2{
+    height: 50px;
+    border-color: #68035b ;
+    border: 3px solid #0ca3c9;
+    font-family: "roboto" ;
+    color: #67990a;
+}
+.chidam #btn2:focus{
+    border: 3px solid rgb(223, 103, 103);
+    color:black;
 }
 .chidam .content .btn{
     height: 50px;
