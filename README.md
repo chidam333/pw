@@ -15,6 +15,6 @@
 
 https://user-images.githubusercontent.com/86545749/140931278-43e35dd8-120f-4012-9d11-40cb6912df2d.mp4
 
-- *Formspree api was used to extract inputs*<br>
+- *Formspree api was used to get inputs*<br>
 - *Icons8 was used for icons*<br>
 - *Cloudfare pages is used for deployment*<br>
