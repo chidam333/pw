@@ -1,7 +1,7 @@
 ## Vanakam everyone 🙏
 # My first website 
 ### Feedback is highly appreciated 
-*The following website is mainly made using following technologies*
+*The website is mainly made using following technologies*
 - *HTML*
 - *CSS*
 - *BOOTSTRAP*
